@@ -39,4 +39,5 @@
   <constants>Constant.Расш1_Константа</constants>
   <catalogs>Catalog.Расш1_Справочник</catalogs>
   <documents>Document.ПриходнаяНакладная</documents>
+  <documents>Document.Расш1_Документ</documents>
 </mdclass:Configuration>
