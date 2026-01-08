@@ -27,7 +27,6 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <defaultLanguage>Language.Русский</defaultLanguage>
-  <compatibilityMode>8.3.27</compatibilityMode>
   <languages uuid="aa04c59f-e7ef-49e7-8852-65f583f6e4b2" extendedConfigurationObject="10b9378a-5510-473e-8091-72ddd12904f7">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
@@ -37,5 +36,6 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
+  <catalogs>Catalog.Расш1_Справочник</catalogs>
   <documents>Document.ПриходнаяНакладная</documents>
 </mdclass:Configuration>
