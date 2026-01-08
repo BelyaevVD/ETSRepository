@@ -40,4 +40,5 @@
   <catalogs>Catalog.Расш1_Справочник</catalogs>
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.Расш1_Документ</documents>
+  <enums>Enum.Расш1_Перечисление</enums>
 </mdclass:Configuration>
