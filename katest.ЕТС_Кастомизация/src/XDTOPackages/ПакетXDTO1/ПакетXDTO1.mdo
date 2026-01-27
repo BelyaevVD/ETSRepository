@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aecf98bb-3365-4c63-9350-473ef78a5b14">
+  <name>ПакетXDTO1</name>
+  <namespace>http://services.srv.etsgroup.ru</namespace>
+</mdclass:XDTOPackage>

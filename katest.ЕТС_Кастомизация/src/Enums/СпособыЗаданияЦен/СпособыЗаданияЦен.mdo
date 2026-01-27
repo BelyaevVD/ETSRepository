@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0ff4bf1a-b48e-453c-a8c5-58847fc49bb2" extendedConfigurationObject="db5caaa2-d517-48a3-952e-0f62d9781048">
+  <producedTypes>
+    <refType typeId="1e41b445-a042-4eed-8106-121885c8855f" valueTypeId="583d13cd-a708-4776-8242-531309d95636"/>
+    <listType typeId="e130df96-93bb-4d7e-8c1d-1de3288f4212" valueTypeId="6e0d7313-2468-45c2-a41e-63be8cedb63f"/>
+    <managerType typeId="56cc66f0-f2ce-4eaa-ad96-c77564665fac" valueTypeId="a6dd671a-635f-4c0a-b2a3-d72c4528865c"/>
+  </producedTypes>
+  <name>СпособыЗаданияЦен</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="5d678b53-8d7b-4d5b-bb75-a180ea6b8a8b" extendedConfigurationObject="0233bcb8-82e9-4752-bd2b-dd507494c170">
+    <name>НаценкаНаДругойВидЦен</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="1ed41080-2297-4348-9bcb-ada17860252c" extendedConfigurationObject="6e3160f8-80b7-470a-ab8f-4418f30201bf">
+    <name>ЗагружаетсяИзЯндексМаркет</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="7dc92151-f85a-41b7-9262-b8c14fcfccda" extendedConfigurationObject="3d930b12-07f5-4ab2-9563-e28722f95ad6">
+    <name>РассчитыватьПоФормуламОтДругихВидовЦен</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="ccbcb3f0-16d2-400d-99b6-855aa7978a55" extendedConfigurationObject="72e3cfcb-7c74-4093-9a57-06cd218a7eb4">
+    <name>Вручную</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="b9e0effc-6c57-4899-abdd-baeb9209279c" extendedConfigurationObject="d687dd24-10e2-4fe3-b0df-7e21a1cf1aed">
+    <name>НаценкаНаЦенуПоступления</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

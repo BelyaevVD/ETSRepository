@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4d14a9b4-3d68-495b-917e-27c0388dd456" extendedConfigurationObject="c72d1481-c382-4ea7-917e-af6b57f8025c">
+  <name>ОтгрузитьЗаказ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:BasicCommandExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <group>Checked</group>
+    <commandParameterTypeExtension/>
+  </extension>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType/>
+</mdclass:CommonCommand>

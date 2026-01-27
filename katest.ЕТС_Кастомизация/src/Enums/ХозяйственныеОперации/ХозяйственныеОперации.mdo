@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2296e0cc-7da4-44b9-8c5e-cde0da8874a7" extendedConfigurationObject="351b0c5b-74c3-4aaa-a93b-7246b941f797">
+  <producedTypes>
+    <refType typeId="8619e3ea-354f-4692-b13c-14a1916f3a39" valueTypeId="fc6d3768-671c-4b05-b7e5-ff89cc2ca44b"/>
+    <listType typeId="c3e31759-9da4-497a-9e4b-f00c3612ae9d" valueTypeId="bafac738-8aa3-4ffb-894d-c07679c68a7d"/>
+    <managerType typeId="8dd0fe98-b441-477c-ae12-6ef8056cab2f" valueTypeId="bb29fa92-4a84-46d0-9300-b918ae4dd26a"/>
+  </producedTypes>
+  <name>ХозяйственныеОперации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="6873f11e-227f-42aa-a83d-287cd4cb308e" extendedConfigurationObject="8880d304-daf7-4345-ad8d-c81bc5d994b7">
+    <name>РеализацияЧерезКомиссионера</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="485de9c4-5d93-45e1-8d10-82e854e571ca" extendedConfigurationObject="4dec627e-3939-4191-a213-0cea734fc86c">
+    <name>РеализацияКлиенту</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="0a218888-fef9-4251-8f48-f0fd53c790ce" extendedConfigurationObject="f24e8e16-21ad-4eeb-a73d-06152c4d9a1e">
+    <name>РеализацияЧерезКомиссионераБезПереходаПраваСобственности</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="00e159da-cb80-4bc6-8873-bb2eff52a479" extendedConfigurationObject="a606d3e5-4a59-4b2c-9d3d-5976f5c778cf">
+    <name>ПередачаНаКомиссию</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="f7d16336-65eb-4a46-b7cc-9311b10e7069" extendedConfigurationObject="3299776f-a304-476e-a0d9-a9132b128869">
+    <name>РеализацияКлиентуРеглУчет</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="b37a882e-2a06-46ea-ac02-18d72c6d3c33" extendedConfigurationObject="0789d7c2-8020-4d52-a305-445f9faa9b76">
+    <name>РеализацияБезПереходаПраваСобственности</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="3d2e6423-73e1-4bc4-8792-56a8a3829ac6" extendedConfigurationObject="d0ea89d0-cb52-4ba9-95f0-c511b85739dc">
+    <name>ОформлениеГТДБрокером</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="48cdac78-d046-4c9c-8ff3-4cd0f576cf81" extendedConfigurationObject="6ca99773-897c-437c-a307-54d51b8d9a9c">
+    <name>ОформлениеГТДСамостоятельно</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

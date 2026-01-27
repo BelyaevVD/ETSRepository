@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="36347273-38eb-4d30-b733-87edff504ec1" extendedConfigurationObject="8121de5d-58cd-4c8b-aa7d-bb958b8cdac1">
+  <name>ЗадачиРаспознаванияДокументов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:BasicCommandExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <group>Checked</group>
+    <commandParameterTypeExtension/>
+  </extension>
+  <group>ActionsPanelTools</group>
+  <commandParameterType/>
+</mdclass:CommonCommand>

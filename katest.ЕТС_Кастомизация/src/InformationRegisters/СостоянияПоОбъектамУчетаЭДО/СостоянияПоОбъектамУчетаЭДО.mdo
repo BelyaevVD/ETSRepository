@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="657cb75a-86ba-4d20-9430-69d2ac63ffc1" extendedConfigurationObject="94cb8fd8-e78e-4367-870e-e56a7e5e245d">
+  <producedTypes>
+    <selectionType typeId="5182c1fa-5126-49a9-bba8-953017b4310e" valueTypeId="b8d26e03-2ff6-4b25-96b5-5dba547fed99"/>
+    <listType typeId="fec0267d-f12b-4799-8338-1c7cc1b54584" valueTypeId="5f69ec12-4580-4ea3-852e-7e56026d9a9f"/>
+    <managerType typeId="18afe3aa-6ae6-4e8b-9e1b-cac063f71ed2" valueTypeId="d2223564-0181-4b8d-b70c-61b6b70ff6a4"/>
+    <recordSetType typeId="3032e231-0b87-4deb-9a8c-452061935796" valueTypeId="583b7b5e-108e-4187-bb7c-f94d1a6dcaa3"/>
+    <recordKeyType typeId="fe8af315-997d-4eed-8fe2-cd6c3ceab37c" valueTypeId="2d06f457-cb65-4e3f-ae78-9deae358da33"/>
+    <recordType typeId="2d0b4edf-d1c6-41fe-93b7-3acccbb08a73" valueTypeId="f1cf8d9e-8b46-48db-b5d3-459d51c46f6e"/>
+    <recordManagerType typeId="d67b141b-127b-4d2c-91a4-8a9060cd1e69" valueTypeId="c9b7c97d-570c-484a-8db3-126f8b1ca434"/>
+  </producedTypes>
+  <name>СостоянияПоОбъектамУчетаЭДО</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="54b678bf-fe64-4d57-9074-e4f109596737" extendedConfigurationObject="cb90bdf4-c492-45ef-b596-12109e8f7847">
+    <name>ПредставлениеСостояния</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:InformationRegister>

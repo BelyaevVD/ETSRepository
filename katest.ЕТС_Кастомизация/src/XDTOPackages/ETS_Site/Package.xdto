@@ -1,0 +1,54 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="ets">
+	<objectType name="CustomerOrder">
+		<property name="id" type="xs:string"/>
+		<property name="created_at" type="xs:dateTime"/>
+		<property name="comment" type="xs:string"/>
+		<property name="email" type="xs:string"/>
+		<property name="login" type="xs:string"/>
+		<property name="family_name" type="xs:string"/>
+		<property name="name" type="xs:string"/>
+		<property name="second_name" type="xs:string"/>
+		<property name="manager_id" type="xs:string"/>
+		<property name="phone" type="xs:string"/>
+		<property name="cell_phone" type="xs:string"/>
+		<property name="skype" type="xs:string"/>
+		<property name="icq" type="xs:string"/>
+		<property name="partner_id" type="xs:string"/>
+		<property name="company_name" type="xs:string"/>
+		<property name="inn" type="xs:string"/>
+		<property name="kpp" type="xs:string"/>
+		<property name="company_type" type="xs:string"/>
+		<property name="bank" type="xs:string"/>
+		<property name="bik" type="xs:string"/>
+		<property name="city" type="xs:string"/>
+		<property name="loro_account" type="xs:string"/>
+		<property name="code_1c" type="xs:string"/>
+		<property name="official_address" type="xs:string"/>
+		<property name="delivery_address" type="xs:string"/>
+		<property xmlns:d3p1="ets" name="order_item" type="d3p1:item" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="item">
+		<property name="id_1c" type="xs:string"/>
+		<property name="oem" type="xs:string"/>
+		<property name="make_name" type="xs:string"/>
+		<property name="detail_name" type="xs:string"/>
+		<property name="qnt" type="xs:int"/>
+		<property name="cost" type="xs:decimal"/>
+		<property name="first_cost" type="xs:decimal"/>
+		<property name="supplier" type="xs:string"/>
+		<property name="supplier_inn" type="xs:string"/>
+		<property name="delivery_date" type="xs:int"/>
+		<property name="price_code1c" type="xs:string"/>
+		<property name="srok" type="xs:int"/>
+		<property name="is_fly" type="xs:boolean"/>
+		<property name="query_stock" type="xs:boolean"/>
+		<property name="min_sum" type="xs:decimal"/>
+		<property name="receipt_number" type="xs:string"/>
+		<property name="receipt_date" type="xs:dateTime"/>
+	</objectType>
+	<objectType name="OrderResult">
+		<property name="result" type="xs:boolean"/>
+		<property name="Text" type="xs:string"/>
+		<property name="GUID" type="xs:string"/>
+	</objectType>
+</package>

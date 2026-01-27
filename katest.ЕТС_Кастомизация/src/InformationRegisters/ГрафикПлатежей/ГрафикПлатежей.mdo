@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="22143c19-0a98-4444-ab86-5bf2407a3a55" extendedConfigurationObject="a63d239c-2646-4ee8-8171-17bbb2a8ccda">
+  <producedTypes>
+    <selectionType typeId="dafffea8-798f-47e2-a883-ccb7a685ebf8" valueTypeId="f71023b3-2305-434c-994f-4da172b1eedd"/>
+    <listType typeId="0ae85da2-0d9b-43e8-a503-63404934921a" valueTypeId="4e919a83-652d-49b2-8d5d-c36aca1a2f7b"/>
+    <managerType typeId="fe94e0ce-d1b2-4b03-ae7d-b32c56c66a4a" valueTypeId="a0f0bede-bb87-4729-b1f3-96749ad5ad20"/>
+    <recordSetType typeId="f1c739b4-2478-4e5d-b2b5-a3c9a5d802ea" valueTypeId="bfbb4e1c-b28d-4e5e-ac16-dfebaecd56d6"/>
+    <recordKeyType typeId="c023507c-e894-4b12-ab1e-49eb7a3686ef" valueTypeId="18fe410a-6650-4b8b-b586-1df2402884ad"/>
+    <recordType typeId="7442abee-1525-43ab-867e-1e9a74db8ee8" valueTypeId="63c5e940-7f2c-4e72-8ec3-0427bf623cb8"/>
+    <recordManagerType typeId="57d7b765-5e08-4426-9915-da8e72a5ef21" valueTypeId="7707d12f-8da5-4c4b-ac6b-8a13aaf1b7af"/>
+  </producedTypes>
+  <name>ГрафикПлатежей</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+    <managerModule>Extended</managerModule>
+  </extension>
+</mdclass:InformationRegister>

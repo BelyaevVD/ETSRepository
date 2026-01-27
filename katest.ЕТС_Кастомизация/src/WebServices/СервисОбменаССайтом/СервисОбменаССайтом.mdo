@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24e61b37-6210-4afd-993d-9b8b12df8324">
+  <name>СервисОбменаССайтом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис обмена с сайтом</value>
+  </synonym>
+  <comment>ссылка - http://10.0.20.9/alfaavto_prodservis/ws/ets1.1cws?wsdl</comment>
+  <namespace>http://services.srv.etsgroup.ru</namespace>
+  <xdtoPackages xsi:type="core:ReferenceValue"/>
+  <xdtoPackages xsi:type="core:ReferenceValue"/>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.1/data/core</value>
+  </xdtoPackages>
+  <descriptorFileName>ets2.1cws</descriptorFileName>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="ef90c706-e793-49ee-a4b6-52e3b5641fbb">
+    <name>ЦепочкаСчётФактур</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цепочка счёт фактур</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>СписокУПД</name>
+      <nsUri>http://services.srv.etsgroup.ru</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>ЦепочкаСчётФактур</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="6ca43d98-f844-474f-b4ec-ae9a4ec10579">
+      <name>Контрагент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контрагент</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="795f17cb-9efd-4442-952e-b1a6873c4ef2">
+      <name>ДатаНачала</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата начала</value>
+      </synonym>
+      <xdtoValueType>
+        <name>date</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="60fba177-2248-4683-a6b2-787aabfcea0b">
+      <name>ДатаОкончания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата окончания</value>
+      </synonym>
+      <xdtoValueType>
+        <name>date</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+</mdclass:WebService>

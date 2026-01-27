@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e1ef8554-978c-48bf-a502-e14d9727a987" extendedConfigurationObject="8d80942d-60a7-4f33-9707-68aa5d077496">
+  <producedTypes>
+    <refType typeId="5395bba8-d77e-4db9-822b-dafd48e0a165" valueTypeId="5f2169ef-9cb6-413a-8445-17686c6a5ee5"/>
+    <listType typeId="697eba79-b824-4e1b-b336-89ca2222568c" valueTypeId="caebcdf6-6d5c-4d8b-9e67-fa84ff92f9e7"/>
+    <managerType typeId="6467954a-43bd-4989-a756-3eba3d1afe5e" valueTypeId="ab82d0ee-3cd9-49fc-8fe8-80749b03893e"/>
+  </producedTypes>
+  <name>СпособыФормированияСегментов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="bcbd983f-a06c-4420-afd0-c26afdb1442e" extendedConfigurationObject="e14b9750-5d04-4861-9a6b-3da72b48a5b5">
+    <name>ФормироватьВручную</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

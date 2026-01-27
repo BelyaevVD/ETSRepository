@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da9b0445-6fd0-451a-b0dd-784d2ea75524">
+  <name>ЕТС_ПечатьКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЕТС печать клиент</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>

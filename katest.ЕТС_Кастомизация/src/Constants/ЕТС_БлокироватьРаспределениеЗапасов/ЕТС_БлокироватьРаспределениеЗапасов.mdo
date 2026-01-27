@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b4f382f0-72d7-4506-b02d-64cf37f64d1b">
+  <producedTypes>
+    <managerType typeId="ff46f67a-35f8-48f9-8474-93c9bf1cdc7f" valueTypeId="fadd7c95-b0b8-4fc0-a764-5298d7161c2d"/>
+    <valueManagerType typeId="cfb4895c-a534-44f8-bea2-480c049fef82" valueTypeId="793c7aed-b625-416c-bc5a-c00661c9d70f"/>
+    <valueKeyType typeId="350fb68c-26f5-47a9-8a06-8ade6a1926cf" valueTypeId="7ab3b861-f27f-499b-9e78-6a010df7d96e"/>
+  </producedTypes>
+  <name>ЕТС_БлокироватьРаспределениеЗапасов</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЕТС Блокировать распределение запасов</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

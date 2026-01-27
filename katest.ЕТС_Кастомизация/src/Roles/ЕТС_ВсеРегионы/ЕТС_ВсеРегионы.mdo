@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a1e2bb9-e15c-49f4-b54d-c22a39cbd5f8">
+  <name>ЕТС_ВсеРегионы</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЕТС все регионы</value>
+  </synonym>
+</mdclass:Role>

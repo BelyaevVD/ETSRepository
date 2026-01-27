@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b61c82ed-7474-4094-a394-1a6dcc2e7d2b" extendedConfigurationObject="1b8b67c9-d102-4098-9ab2-841322b60f6e">
+  <producedTypes>
+    <objectType typeId="f4d497bb-cf3f-440d-b788-5cb15bb0f7da" valueTypeId="372f68e7-09eb-4369-a3f7-a6796ac233b1"/>
+    <refType typeId="2bedcd28-c2b3-4f59-807f-0476434cc4f9" valueTypeId="5b524bbf-b6d2-468f-804a-1453f8281e9a"/>
+    <selectionType typeId="f135b0dc-9db9-439f-a356-5bec47c1a57a" valueTypeId="c7156239-2fcd-4627-8a5a-3570c77fabad"/>
+    <listType typeId="2c75d2b4-007d-4231-88f0-a5c9582b7486" valueTypeId="025b996c-3495-4525-9388-1c4240788b94"/>
+    <managerType typeId="836bc959-5ca8-4235-a8db-43ce1d6b48ce" valueTypeId="528e8d82-d513-4847-8bad-c2506750dc20"/>
+  </producedTypes>
+  <name>КоммерческоеПредложениеКлиенту</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <forms uuid="35491c5c-2b6b-4e11-9d29-c380b53627b0" extendedConfigurationObject="5a5a13d2-e848-4179-a826-2ff1d2244b2b">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="7013363e-e2e6-43c0-8528-486f9541612e" extendedConfigurationObject="6b43a713-3abc-4609-b9a8-e85fd984e6bc">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <commands uuid="6de5400c-e36f-44cb-89c6-50b7d290c83c" extendedConfigurationObject="76a62f25-a2dd-4644-9b87-0a36a90ad932">
+    <name>КоммерческиеПредложенияКлиентам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказы покупателей с сайта</value>
+    </synonym>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicCommandExtension">
+      <synonym>Extended</synonym>
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <group>Checked</group>
+      <commandParameterTypeExtension/>
+    </extension>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+  </commands>
+</mdclass:Document>

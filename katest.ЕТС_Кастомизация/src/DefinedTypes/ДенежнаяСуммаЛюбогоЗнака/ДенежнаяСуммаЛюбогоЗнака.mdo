@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ea9402db-7dc8-4def-bd9f-6e050a2b040e" extendedConfigurationObject="e9d9b9f6-1beb-4143-8dc1-746ce5bf6d50">
+  <producedTypes>
+    <containerType typeId="4c399144-41e2-40fa-8b18-9580833d9f2e" valueTypeId="edc2a1e2-c722-49fd-9e06-3f136b30df66"/>
+  </producedTypes>
+  <name>ДенежнаяСуммаЛюбогоЗнака</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Number</type>
+      </types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </typeExtension>
+  </extension>
+</mdclass:DefinedType>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f975c990-3cc7-48e5-88c2-aff9bd54e872" extendedConfigurationObject="4d9d7f8f-d45b-4221-9a9a-49694acadf73">
+  <producedTypes>
+    <objectType typeId="56c4ef74-6969-40f8-815d-208a51e0037d" valueTypeId="e081ca60-7717-4873-a54a-5d563f3f731c"/>
+    <managerType typeId="91fe96d5-3aff-4351-974e-3ffaf47300f1" valueTypeId="445fb7ed-77fb-4834-a532-0558a060414e"/>
+  </producedTypes>
+  <name>ПечатьОбщихФорм</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <managerModule>Extended</managerModule>
+  </extension>
+</mdclass:DataProcessor>

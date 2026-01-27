@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="39087d93-74bf-4789-9dd7-a398d720dd25" extendedConfigurationObject="ea8c9475-156a-4793-8dfe-10617b50f0de">
+  <producedTypes>
+    <refType typeId="c12329e2-b222-4459-8af0-b1914e5f98cc" valueTypeId="17b48d60-bff7-458d-9fc6-2ff48f17eac2"/>
+    <listType typeId="47b5f37e-7730-4c0e-a5fd-baa66569f48e" valueTypeId="7864291d-e937-4039-a160-499c3940964a"/>
+    <managerType typeId="56bebf5d-0b27-4c76-bee1-596ef49d0640" valueTypeId="50daf310-6953-4b6f-9f5c-661594ad1d3a"/>
+  </producedTypes>
+  <name>СостоянияЗаказовКлиентов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="710d49ce-7001-4b05-8af7-d5976ccc0ae3" extendedConfigurationObject="4f84d378-014f-46e5-9669-117f8699ea6a">
+    <name>ОжидаетсяСогласование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступил с сайта</value>
+    </synonym>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <synonym>Extended</synonym>
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

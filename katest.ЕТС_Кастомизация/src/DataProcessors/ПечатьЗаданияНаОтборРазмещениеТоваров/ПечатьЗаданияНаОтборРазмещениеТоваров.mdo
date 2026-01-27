@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a785608b-4b02-49d9-9c7d-299987907c4b" extendedConfigurationObject="6717714e-3fa7-4256-a344-3e997171fdce">
+  <producedTypes>
+    <objectType typeId="c6d2165c-30d3-4f5b-98e4-e8de614eb286" valueTypeId="41adb5b9-f42c-4465-85f7-67c9acd635b4"/>
+    <managerType typeId="f8ff4ac2-1b71-4f3b-9595-8a91af8f1bd6" valueTypeId="f0fc031c-69c9-411e-be30-ac5601534d12"/>
+  </producedTypes>
+  <name>ПечатьЗаданияНаОтборРазмещениеТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <managerModule>Extended</managerModule>
+  </extension>
+</mdclass:DataProcessor>

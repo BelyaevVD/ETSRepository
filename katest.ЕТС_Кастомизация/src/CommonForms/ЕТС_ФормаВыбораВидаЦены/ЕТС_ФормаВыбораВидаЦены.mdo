@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="306e68df-c3a3-4ac4-bc11-e7c86d5977ac">
+  <name>ЕТС_ФормаВыбораВидаЦены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выберите прайс!</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

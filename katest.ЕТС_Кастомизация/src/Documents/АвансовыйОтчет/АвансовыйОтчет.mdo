@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="59dd0d16-e93f-462e-8aa7-cf27a0b252b5" extendedConfigurationObject="9de71b46-e9bf-4b0b-8f3c-4abcd6a385dd">
+  <producedTypes>
+    <objectType typeId="b7c214a7-187e-4886-b2b2-ed9a727594c4" valueTypeId="2c96b818-c052-436e-93b5-459110df2c7b"/>
+    <refType typeId="664e9aea-bb76-4418-a774-7c2db00cbab5" valueTypeId="4a181cb8-c7cd-417b-b7a2-ce15e7b58940"/>
+    <selectionType typeId="87589206-256b-41b8-95ec-d649c65b54b9" valueTypeId="d66f81ab-37a7-4840-a13c-6b3881f90041"/>
+    <listType typeId="68b79229-2d6e-462a-b319-aba8081b25e2" valueTypeId="8762874e-ad7d-4ed9-abb6-8d24e307a40e"/>
+    <managerType typeId="72b8b05c-c3ed-4581-ae70-7327997aa1f1" valueTypeId="7f4984e0-4df8-462f-b53d-d45f800dcd7c"/>
+  </producedTypes>
+  <name>АвансовыйОтчет</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

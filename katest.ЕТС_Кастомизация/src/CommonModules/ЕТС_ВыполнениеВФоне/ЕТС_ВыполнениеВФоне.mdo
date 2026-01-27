@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c92965b9-3226-4eff-9b3d-eee4671bfc64">
+  <name>ЕТС_ВыполнениеВФоне</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЕТС выполнение в фоне</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

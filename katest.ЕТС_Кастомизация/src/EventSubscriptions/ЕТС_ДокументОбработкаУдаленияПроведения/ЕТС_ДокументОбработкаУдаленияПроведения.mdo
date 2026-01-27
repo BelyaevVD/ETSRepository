@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="534f8815-3764-41be-918b-cc4fef8f5204">
+  <name>ЕТС_ДокументОбработкаУдаленияПроведения</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЕТС документ обработка удаления проведения</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ПеремещениеТоваров</types>
+    <types>DocumentObject.ПриобретениеТоваровУслуг</types>
+    <types>DocumentObject.ВозвратТоваровОтКлиента</types>
+    <types>DocumentObject.СборкаТоваров</types>
+    <types>DocumentObject.ВозвратТоваровПоставщику</types>
+    <types>DocumentObject.ВводОстатковТоваров</types>
+    <types>DocumentObject.ВнутреннееПотребление</types>
+    <types>DocumentObject.ПроизводствоБезЗаказа</types>
+  </source>
+  <event>UndoPosting</event>
+  <handler>CommonModule.ЕТС_ПодпискиНаСобытияСервер.ЕТС_ДокументОбработкаУдаленияПроведенияОбработкаУдаленияПроведения</handler>
+</mdclass:EventSubscription>

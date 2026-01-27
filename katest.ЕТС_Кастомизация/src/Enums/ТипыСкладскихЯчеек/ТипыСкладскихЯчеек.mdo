@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b2ded285-d67b-46e6-8208-dc8d7c3e07a4" extendedConfigurationObject="ced20a30-7d1b-431b-8276-e247307df415">
+  <producedTypes>
+    <refType typeId="12c60769-5145-49dc-a915-05f77e25d0a4" valueTypeId="995c66e3-def6-4bf2-8ed4-0ca554d76c74"/>
+    <listType typeId="ab80973f-460e-405c-8eab-7e334b660ea1" valueTypeId="9a709cbd-7f0f-47a6-8831-69d383e40e16"/>
+    <managerType typeId="593fb336-a751-4dc2-9b75-d553f27cbf90" valueTypeId="0f6e1fe2-059f-4865-825c-58c9572693d5"/>
+  </producedTypes>
+  <name>ТипыСкладскихЯчеек</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="821e0d40-524f-4271-9307-ea5b7c600d90" extendedConfigurationObject="43172bab-ef5f-4762-994d-995dcae5ad58">
+    <name>ОтгрузкаУчетОстатков</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="6dde79df-ea38-42e8-a04e-bd3096660b2e" extendedConfigurationObject="cf81110b-4c80-447e-9456-a2b84197b1df">
+    <name>Приемка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="8665c377-35d0-48d5-9135-77256011720e" extendedConfigurationObject="46f50f70-d92a-43c0-90e4-cb1e38a1d95b">
+    <name>Отгрузка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

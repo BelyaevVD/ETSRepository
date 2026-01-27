@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3fd683a6-c719-4285-b737-fea0997ece8f">
+  <name>ETS_GetOrder</name>
+  <synonym>
+    <key>ru</key>
+    <value>ETS get order</value>
+  </synonym>
+  <namespace>ets</namespace>
+  <xdtoPackages xsi:type="core:ReferenceValue">
+    <value>XDTOPackage.ETS_Site</value>
+  </xdtoPackages>
+  <descriptorFileName>IntegrationSite.1cws</descriptorFileName>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="9a9003d8-4a60-44da-82f3-3abb9dbc0b2d">
+    <name>AddOrder</name>
+    <synonym>
+      <key>ru</key>
+      <value>Add order</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>OrderResult</name>
+      <nsUri>ets</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>AddOrder</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="de62a868-ef2e-4860-be43-a2203b09d311">
+      <name>Order</name>
+      <synonym>
+        <key>ru</key>
+        <value>Order</value>
+      </synonym>
+      <xdtoValueType>
+        <name>CustomerOrder</name>
+        <nsUri>ets</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+</mdclass:WebService>

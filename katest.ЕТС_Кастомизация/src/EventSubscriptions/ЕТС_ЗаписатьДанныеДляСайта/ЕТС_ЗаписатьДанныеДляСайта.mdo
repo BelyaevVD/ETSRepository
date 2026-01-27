@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9006796-f324-4465-be1c-55ebcf528704">
+  <name>ЕТС_ЗаписатьДанныеДляСайта</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЕТС записать данные для сайта</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.Номенклатура</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ЕТС_ПодпискиНаСобытияСервер.ЕТС_ЗаписатьДанныеДляСайтаПриЗаписи</handler>
+</mdclass:EventSubscription>

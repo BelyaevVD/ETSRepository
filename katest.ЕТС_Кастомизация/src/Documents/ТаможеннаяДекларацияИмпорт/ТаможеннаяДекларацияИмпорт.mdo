@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b838841c-9373-414a-baf9-787ba35a3d31" extendedConfigurationObject="9ca75ff4-fa62-49dd-9655-4570cc73fdd9">
+  <producedTypes>
+    <objectType typeId="ba0b5870-e826-43ec-aa1b-dd051d18be49" valueTypeId="ec924b31-039a-42ba-91dd-020e516fe9cb"/>
+    <refType typeId="f1d7f3c4-2085-4061-bb0d-fd0bea94e6ea" valueTypeId="1a1f6864-f8a1-4298-b88b-dac5e18e6e9e"/>
+    <selectionType typeId="ef37f6d7-6c3c-463f-a97e-8be9de2d7243" valueTypeId="10398a36-3a03-4240-a5d5-c862ca55b11a"/>
+    <listType typeId="f0dfd0a6-26b9-45b8-be1c-0cf0ddf6fdab" valueTypeId="e5f1070f-9ace-4f7a-bd87-24b97ba860b7"/>
+    <managerType typeId="418026f6-922b-4a7b-9745-24c81d6ba388" valueTypeId="29001d1b-9381-44b1-b20b-d75f680f9445"/>
+  </producedTypes>
+  <name>ТаможеннаяДекларацияИмпорт</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <forms uuid="f76122f3-1ad3-48de-b7bc-cb4bc2f92d34" extendedConfigurationObject="9583b575-7f59-4fae-b090-eed258090c1e">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Document>

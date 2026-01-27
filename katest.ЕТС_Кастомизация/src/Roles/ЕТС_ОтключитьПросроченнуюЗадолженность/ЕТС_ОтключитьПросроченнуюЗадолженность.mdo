@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="032a4146-90fe-4fcb-9ced-f1709fe2a942">
+  <name>ЕТС_ОтключитьПросроченнуюЗадолженность</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЕТС отключить просроченную задолженность</value>
+  </synonym>
+</mdclass:Role>

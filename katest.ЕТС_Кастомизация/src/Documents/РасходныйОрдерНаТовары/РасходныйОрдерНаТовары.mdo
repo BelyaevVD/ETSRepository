@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4d25456c-ae33-4ab1-8457-9a6a0a4fd290" extendedConfigurationObject="e5b57481-c7d7-459c-8f38-003976928dcf">
+  <producedTypes>
+    <objectType typeId="148d656d-29e3-4bf1-8cd1-e535d505015f" valueTypeId="b8219360-2f95-4d3d-a60b-46f3516ea08c"/>
+    <refType typeId="b1a5f051-696d-4a89-94cd-fdb49e28658f" valueTypeId="c2e44f3a-9c04-434a-acdb-8821c3eae5a7"/>
+    <selectionType typeId="7d059478-9ec0-4af0-ad03-018479614493" valueTypeId="fddfd7c6-143c-4118-b2b5-5df7b5e92d69"/>
+    <listType typeId="2cb36a6e-f9a9-4324-a3ec-f4920b15c9a9" valueTypeId="20c03855-d830-4e69-bc70-9f41557219a6"/>
+    <managerType typeId="e095b25f-9644-435a-83df-1d7a0acadca0" valueTypeId="2fff743b-38b0-43d3-b69b-03ae0f564ac8"/>
+  </producedTypes>
+  <name>РасходныйОрдерНаТовары</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <managerModule>Extended</managerModule>
+  </extension>
+</mdclass:Document>

@@ -1,0 +1,101 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://services.srv.etsgroup.ru" elementFormQualified="true" attributeFormQualified="false">
+	<objectType name="КонтактныеЛица">
+		<property name="ФИОПолное" type="xs:string"/>
+		<property name="ФИОПолноеРП" type="xs:string"/>
+		<property name="ФИОСокр" type="xs:string"/>
+		<property name="Должность" type="xs:string"/>
+		<property name="ДолжностьРП" type="xs:string"/>
+	</objectType>
+	<objectType name="Номенклатура">
+		<property name="НоменклатураКод" type="xs:string"/>
+		<property name="НоменклатураПроизводительКод" type="xs:string"/>
+		<property name="НоменклатураПроизводитель" type="xs:string"/>
+		<property name="Артикул" type="xs:string"/>
+		<property name="НоменклатураНаименование" type="xs:string"/>
+		<property name="Количество" type="xs:decimal"/>
+		<property name="Цена" type="xs:decimal"/>
+		<property name="Сумма" type="xs:decimal"/>
+		<property name="НДС" type="xs:decimal"/>
+		<property name="НомерГТД" type="xs:string" nillable="true"/>
+	</objectType>
+	<objectType name="СписокКонтактныхЛиц">
+		<property xmlns:d3p1="http://services.srv.etsgroup.ru" name="Список" type="d3p1:КонтактныеЛица" upperBound="2"/>
+	</objectType>
+	<objectType name="СписокНоменклатуры">
+		<property xmlns:d3p1="http://services.srv.etsgroup.ru" name="Список" type="d3p1:Номенклатура" upperBound="2" nillable="true"/>
+	</objectType>
+	<objectType name="СписокУПД">
+		<property xmlns:d3p1="http://services.srv.etsgroup.ru" name="Контакты" type="d3p1:СписокКонтактныхЛиц"/>
+		<property xmlns:d3p1="http://services.srv.etsgroup.ru" name="УПД" type="d3p1:УПД" upperBound="2"/>
+	</objectType>
+	<objectType name="УПД">
+		<property name="Организация" type="xs:string"/>
+		<property name="ХозОперация" type="xs:string"/>
+		<property name="ДокументОснование" type="xs:string"/>
+		<property name="КонтрагентКод" type="xs:string"/>
+		<property name="КонтрагентНаименование" type="xs:string"/>
+		<property name="НомерИсходногоДокумента" type="xs:string"/>
+		<property name="ДатаИсходногоДокумента" type="xs:date"/>
+		<property name="ЕстьОснование" type="xs:boolean"/>
+		<property name="НомерУПД" type="xs:string"/>
+		<property name="ДатаУПД" type="xs:date"/>
+		<property name="ФИОРуководитель" type="xs:string"/>
+		<property name="ДолжностьРуководитель" type="xs:string"/>
+		<property xmlns:d3p1="http://services.srv.etsgroup.ru" name="Товары" type="d3p1:СписокНоменклатуры" nillable="true"/>
+	</objectType>
+	<objectType name="ManagerSale">
+		<property name="Manager" type="xs:string"/>
+		<property name="Department" type="xs:string"/>
+		<property name="SumSale" type="xs:decimal"/>
+		<property name="CostSale" type="xs:decimal"/>
+	</objectType>
+	<objectType name="ManagerSaleList">
+		<property xmlns:d3p1="http://services.srv.etsgroup.ru" name="Список" type="d3p1:ManagerSale" upperBound="2"/>
+	</objectType>
+	<objectType name="Oems">
+		<property name="List" type="xs:string" upperBound="8000"/>
+	</objectType>
+	<objectType name="ClientSale">
+		<property name="Manager" type="xs:string"/>
+		<property name="Department" type="xs:string"/>
+		<property name="SumSale" type="xs:decimal"/>
+		<property name="ManagerCode" type="xs:string"/>
+		<property name="ContractorCode" type="xs:string"/>
+		<property name="ContractorName" type="xs:string"/>
+	</objectType>
+	<objectType name="ClientSaleList">
+		<property xmlns:d3p1="http://services.srv.etsgroup.ru" name="Список" type="d3p1:ClientSale" upperBound="2"/>
+	</objectType>
+	<objectType name="РасходыНаДоставкРез">
+		<property xmlns:d3p1="http://services.srv.etsgroup.ru" name="Список" type="d3p1:РасходыНаДоставкПоз" upperBound="2"/>
+	</objectType>
+	<objectType name="РасходыНаДоставкПоз">
+		<property name="Период" type="xs:date"/>
+		<property name="Регистратор" type="xs:string"/>
+		<property name="СтатьяДоходовИРасходов" type="xs:string"/>
+		<property name="ПодразделениеКомпании" type="xs:string"/>
+		<property name="ХозОперация" type="xs:string"/>
+		<property name="РегистраторКонтрагент" type="xs:string"/>
+		<property name="РегистраторВхДокНомер" type="xs:string" nillable="true"/>
+		<property name="РегистраторВхДокДата" type="xs:string" nillable="true"/>
+		<property name="РасходУпр" type="xs:decimal"/>
+		<property name="Выручка" type="xs:decimal"/>
+		<property name="Себестоимость" type="xs:decimal"/>
+		<property name="Прибыль" type="xs:decimal"/>
+		<property name="ПродажиШт" type="xs:decimal"/>
+		<property name="ПродажиСтрок" type="xs:decimal"/>
+		<property name="ПродажиДок" type="xs:decimal"/>
+	</objectType>
+	<objectType name="ManagerSalesRelWirksam">
+		<property name="Period" type="xs:dateTime"/>
+		<property name="DocumentSale" type="xs:string"/>
+		<property name="ManagerCode" type="xs:string"/>
+		<property name="Manager" type="xs:string"/>
+		<property name="SumWirksam" type="xs:decimal"/>
+		<property name="SumNotWirksam" type="xs:decimal"/>
+		<property name="SumSale" type="xs:decimal"/>
+	</objectType>
+	<objectType name="ManagerSalesRelWirksamList">
+		<property xmlns:d3p1="http://services.srv.etsgroup.ru" name="Список" type="d3p1:ManagerSalesRelWirksam" upperBound="2"/>
+	</objectType>
+</package>

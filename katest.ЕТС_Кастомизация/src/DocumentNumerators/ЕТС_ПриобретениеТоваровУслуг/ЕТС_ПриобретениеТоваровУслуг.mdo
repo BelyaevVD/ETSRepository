@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentNumerator xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf48bb03-ec82-4806-85eb-223167fbf3e5">
+  <name>ЕТС_ПриобретениеТоваровУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приобретение товаров услуг</value>
+  </synonym>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+</mdclass:DocumentNumerator>

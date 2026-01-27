@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f320a189-4d27-4828-a396-20541e460390" extendedConfigurationObject="050b09a5-e36c-42b6-b337-cdddd2968bea">
+  <producedTypes>
+    <objectType typeId="055cbcca-9f7a-4e3f-9cd3-6e90aa5f6242" valueTypeId="9755d6d8-89c1-43e5-8ec8-39bbfc74b56c"/>
+    <refType typeId="561898b6-3358-4be4-b192-3f760f9178f4" valueTypeId="65b0c04e-09da-43d8-b491-0e67c3fda968"/>
+    <selectionType typeId="c974a6d3-ade3-4919-935f-8a5b8c698c44" valueTypeId="4ad189f6-44f8-4c84-a439-16a0135d0107"/>
+    <listType typeId="7fe31484-27c1-455a-adb8-ac03e894b253" valueTypeId="a1a25428-2a6c-479b-a9df-f2c32165f57e"/>
+    <managerType typeId="25741a9d-769a-49db-9356-425924d4692c" valueTypeId="ca56cf7b-b058-4545-9bf3-ad879e2b513b"/>
+  </producedTypes>
+  <name>ПеремещениеТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="01d126b1-cc74-4093-8a82-686a901608f7" extendedConfigurationObject="25dc034f-cb5e-490d-9f3d-d9f2b59ba018">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+        <types>
+          <state>Extended</state>
+          <type>DocumentRef.ВозвратТоваровОтКлиента</type>
+        </types>
+        <types>
+          <state>Extended</state>
+          <type>DocumentRef.РеализацияТоваровУслуг</type>
+        </types>
+        <types>
+          <state>Extended</state>
+          <type>DocumentRef.ВводОстатковТоваров</type>
+        </types>
+        <types>
+          <state>Extended</state>
+          <type>DocumentRef.ВозвратТоваровПоставщику</type>
+        </types>
+        <types>
+          <state>Extended</state>
+          <type>DocumentRef.ВнутреннееПотребление</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>
